@@ -1,0 +1,93 @@
+body {
+    font-family: 'Raleway', sans-serif;
+  }
+  
+  /* Header */
+  .header-logo{
+    font-size: 1rem;
+    color: #7B66FF;
+  }
+  
+  /* Title */
+  .title-img {
+   border-radius: 5%;
+  }
+  
+  .title-big-heading {
+    color: #7B66FF;
+    font-weight: 700;
+  }
+  
+  /* Stays images */
+  .cabin {
+    background-image: url('images/luxury-cabin.jpeg');
+    background-position: 10%;
+  }
+  
+  .jungle {
+    background-image: url('images/luxury-jungle.jpeg');
+    background-size: inherit;
+  }
+  
+  .desert {
+    background-image: url('images/luxury-desert.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  /* Experiences */
+  
+  .ex-samples {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 55px;
+    margin-bottom: 70px;
+  }
+  
+  .exp {
+    text-align: center;
+  }
+  
+  .bd-placeholder-img {
+    width: 140px;
+    height: 140px;
+    border-radius: 20px;
+  }
+  
+  .exp-titles {
+    padding-top: 20px;
+  }
+  
+  .details-btn {
+    background-color: #7B66FF;
+  }
+  
+  /* Testimonials */
+  
+  @media (min-width: 600px) {
+    #testimonials {
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+  }
+  
+  /* App */
+  .endorsement {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  
+  .btn-primary {
+    background-color: #7B66FF;
+  }
+  
+  .btn-outline-secondary {
+    color: #7B66FF;
+  }
+  
+  /* Footer */
+  
+  .fa-brands {
+    color: #7B66FF;
+  }
+  

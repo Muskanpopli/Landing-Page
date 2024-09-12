@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HomeAway</title>
+
+  <!-- Styles -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500;600;700;900&display=swap" rel="stylesheet">
+
+  <!-- Icons -->
+  <script src="https://kit.fontawesome.com/c28bc147bf.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+  <!-- Header -->
+  <section id="header">
+    <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
+      <div class="col-md-3 mb-2 mb-md-0">
+        <a href="/" class="d-inline-flex link-body-emphasis text-decoration-none">
+          <i class="fa-regular fa-gem header-logo">HOMEAWAY</i></a>
+      </div>
+
+      <ul class="nav-bar nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+        <li><a href="#homes" class="nav-link px-2 link-secondary">Home</a></li>
+        <li><a href="#stays" class="nav-link px-2" spellcheck="false">Stays</a></li>
+        <li><a href="#experiences" class="nav-link px-2">Experiences</a></li>
+        <li><a href="#testimonials" class="nav-link px-2">Testimonials</a></li>
+        <li><a href="#app" class="nav-link px-2">Our app</a></li>
+      </ul>
+
+      <div class="col-md-3 text-end">
+        <button type="button" class="btn btn-outline-primary me-2">Login</button>
+        <button type="button" class="btn btn-primary">Sign-up</button>
+      </div>
+    </header>
+  </section>
+
+  <!-- Title -->
+  <section id="title">
+    <div class="container col-xxl-8 px-4 py-5">
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div class="col-10 col-sm-8 col-lg-6">
+          <img src="./images/luxury-lapland.jpeg" class="title-img d-block mx-lg-auto img-fluid" alt="Lapland stay">
+        </div>
+        <div class="col-lg-6">
+          <h1 class="title-big-heading display-5 lh-1 mb-3">HomeAway</h1>
+          <p class="lead">Luxury stays around the world available at your fingertip. You pick your 
+            favorite home and we take care of the rest. Our all inclusive packages takes all the hassles
+            away from you so that you can concentrate on the experience.
+          </p>
+          
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Stays -->
+  <section id="stays">
+    <div class="container px-4 py-5" id="custom-cards">
+      <h2 class="pb-2 border-bottom">Luxurious Stays</h2>
+  
+      <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+        <div class="col">
+          <div class="card cabin card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+              <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Serviced Cabins</h3>
+              <ul class="d-flex list-unstyled mt-auto">
+                <li class="me-auto">
+                  <i class="fa-regular fa-gem"></i>              
+                </li>
+                <li class="d-flex align-items-center me-3">
+                  <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
+                  <small>Woodlands</small>
+                </li>
+                <li class="d-flex align-items-center">
+                  <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
+                  <small>Book</small>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col">
+          <div class="card jungle card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+              <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">When jungle stays rhymes with lush views</h3>
+              <ul class="d-flex list-unstyled mt-auto">
+                <li class="me-auto">
+                  <i class="fa-regular fa-gem"></i>              
+                </li>
+                <li class="d-flex align-items-center me-3">
+                  <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
+                  <small>Amazonian</small>
+                </li>
+                <li class="d-flex align-items-center">
+                  <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
+                  <small>Book</small>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col">
+          <div class="card desert card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+              <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Desertic stays to feel other wordly</h3>
+              <ul class="d-flex list-unstyled mt-auto">
+                <li class="me-auto">
+                  <i class="fa-regular fa-gem"></i>              
+                </li>
+                <li class="d-flex align-items-center me-3">
+                  <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
+                  <small>Martian</small>
+                </li>
+                <li class="d-flex align-items-center">
+                  <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
+                  <small>Book</small>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Experiences -->
+  <section id="experiences">
+    <div class="container px-4 py-5" id="custom-cards">
+    <h2 class="pb-2 border-bottom">Magnificient Experiences</h2>
+
+    <div class="row ex-samples">
+      <div class="col-lg-4 exp">
+        <img class="bd-placeholder-img" src="images/inhouse-chef.jpeg"></img>
+        <h2 class="exp-titles fw-normal">In House Chef</h2>
+        <p>All our stays include an in-house chef. Our strictly selected chefs will take care of all
+          your diatery needs: an allergy? They will scrap the kitchen before your arrival! Want a special
+          meal everyday? They will have it ready when you want it.
+        </p>
+        <p><a class="btn btn-secondary details-btn" href="#">View details »</a></p>
+      </div>
+    
+      <div class="col-lg-4 exp">
+        <img class="bd-placeholder-img" src="images/butler.jpeg"></img>
+        <h2 class="exp-titles fw-normal">Butler</h2>
+        <p>Our butler service will make sure to make all your wildest dreams come true. You want to rent a boat? Done. Your kid wants to meet Santa? 
+          No problem, we have him on speedial. Our team of dedicated butler is there to make your stay magical. 
+        </p>
+        <p><a class="btn btn-secondary details-btn" href="#">View details »</a></p>
+      </div>
+
+      <div class="col-lg-4 exp">
+        <img class="bd-placeholder-img" src="images/spa.jpeg"></img>
+        <h2 class="exp-titles fw-normal">Palatial Spas</h2>
+        <p>Your mind and body are connected. This is why we ensure that all our stays also include 
+          spa treatments. No need to leave your amazing accomodation, the spa and its teams are all
+          located on site and will be available 24/7 during your stay.
+        </p>
+        <p><a class="btn btn-secondary details-btn" href="#">View details »</a></p>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section id="testimonials">
+
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./images/Jane-Mark.jpeg" class="d-block w-100" alt="Happy couple on honey moon">
+          <div class="carousel-caption d-md-block">
+            <h5>Jane & Mark, New York</h5>
+            <p>HomeAway made our honey moon truly exceptional</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./images/snow-family.jpg" class="d-block w-100" alt="Happy family sitting in the snow">
+          <div class="carousel-caption d-md-block">
+            <h5>Doe Family, Miami</h5>
+            <p>Our children loved discovering snowy paysages during our HomeAway stay. All the extra
+              services offered by HomeAway made the whole thing magical.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./images/boat-trip.jpeg" class="d-block w-100" alt="Couple having fun on a boat">
+          <div class="carousel-caption d-md-block">
+            <h5>Mel & John, London</h5>
+            <p>The butler service made it possible for us to make one of our dream come true: we became
+              boat captains for a day.
+            </p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+  </section>
+
+  <!-- App -->
+  <section id="app">
+    <div class="px-4 pt-5 my-5 text-center border-bottom">
+      <h1 class="display-4 fw-bold text-body-emphasis">Easy bookings at the tip of your finger</h1>
+      <div class="col-lg-6 mx-auto">
+        <p class="lead mb-4"> Our app makes booking one of our luxurious stay and some of the most 
+          experiences in the world easier than ever
+        </p>
+        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+          <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3"><i class="fa-brands fa-apple"></i> Download</button>
+          <button type="button" class="btn btn-outline-secondary btn-lg px-4"><i class="fa-brands fa-google-play"></i> Download</button>
+        </div>
+      </div>
+      <div class="overflow-hidden" style="max-height: 30vh;">
+        <div class="container px-5">
+          <img src="./images/app-look.jpeg" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image of the app" width="700" height="500" loading="lazy">
+        </div>
+      </div>
+      <div class="endorsement lead mb-4">
+        <p>These platforms endorsed us:</p>
+        <img class="endorsed" src="./images/TechCrunch.png" alt="TechCrunch Logo">
+        <img class="endorsed" src="./images/mashable.png" alt="Mashable Logo">
+        <img class="endorsed" src="./images/bizinsider.png" alt="Business Insider Logo">
+        <img class="endorsed" src=".//images/tnw.png" alt="The Next Web Logo">
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Footer -->
+  <section id="footer">
+    <footer class="footer d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+      <div class="col-md-4 d-flex align-items-center">
+        <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+          <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+        </a>
+        <span class="mb-3 mb-md-0 text-body-secondary">© 2024 Company, Inc</span>
+      </div>
+  
+      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+        <li class="ms-3"><a class="text-body-secondary" href="#"><i class="fa-brands fa-facebook"></i></a></li>
+        <li class="ms-3"><a class="text-body-secondary" href="#"><i class="fa-brands fa-instagram"></i></a></li>
+      </ul>
+    </footer>
+
+  </section>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
